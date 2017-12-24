@@ -1,4 +1,8 @@
-
+# WeatherPy
+## Observed Trends
+### 1. Temperature is indirectly proportional to the Lattitude. Lower the Lattitude, higher the Temerature and vice cersa.
+### 2. Wind Speed is comparatively high in the higher Lattitude areas.
+### 3. Humidity cluster is comparatively densed in the higher Lattitude areas.
 
 ```python
 ## Import modules
@@ -20,7 +24,7 @@ import requests as req
 def pretty_print_json(obj):
     print(json.dumps(obj, indent=4, sort_keys=True))
 ```
-
+## Generate Cities List
 
 ```python
 ## Generate Cities List
@@ -110,7 +114,7 @@ sampled_cities.head()
 </div>
 
 
-
+## Perform API Calls
 
 ```python
 ## Perform API Calls
@@ -1498,7 +1502,7 @@ weather_df.head()
 </div>
 
 
-
+## City Lattitude vs. Temperature Plot
 
 ```python
 # Build a scatter plot for each data type
@@ -1526,7 +1530,7 @@ plt.show()
 
 ![png](Weather_API_files/Weather_API_7_0.png)
 
-
+## City Lattitude vs. Humidity Plot
 
 ```python
 # Build a scatter plot for each data type
@@ -1550,7 +1554,7 @@ plt.show()
 
 ![png](Weather_API_files/Weather_API_8_0.png)
 
-
+## Lattitude vs. Cloudiness Plot
 
 ```python
 # Build a scatter plot for each data type
@@ -1574,7 +1578,7 @@ plt.show()
 
 ![png](Weather_API_files/Weather_API_9_0.png)
 
-
+## Lattitude vs. Wind Speed Plot
 
 ```python
 # Build a scatter plot for each data type
