@@ -1,4 +1,4 @@
-v# WeatherPy
+# WeatherPy
 ## Observed Trends
 ### 1. Temperature is indirectly proportional to the Lattitude. Lower the Lattitude, higher the Temerature and vice versa.
 ### 2. Wind Speed is comparatively high in the higher Lattitude areas.
